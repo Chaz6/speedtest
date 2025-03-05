@@ -1,0 +1,28 @@
+{
+	"name": "speedtest",
+	"author": "Chris Hills <chaz@chaz6.com>",
+	"description": "A simple http speed test server.",
+	"version": "1.0.0",
+	"contributors": [
+		{
+			"name": "Chris Hills",
+			"email": "chaz@chaz6.com"
+		},
+		{
+			"name": "Josh Erickson",
+			"email": "josh@snoj.us"
+		}
+	],
+	"keywords": ["http", "speed test"],
+	"scripts": {
+		"start": "node ./src/speed.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chaz6/speedtest.git"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=4.5.0"
+	}
+}
